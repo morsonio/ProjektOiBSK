@@ -16,7 +16,7 @@ namespace WebApplication1.Controllers
         {
             SteamWebAPI.SetGlobalKey("0");
             var list = SteamWebAPI.General().ISteamApps().GetAppList().GetResponse();
-            string list2 = null; // TODO: stworzyć listę, która pobiera te pierdoły w taki sposób w jaki pobierane są w tej fajoskiej bibliotece, np. PortableSteamExtension.GetAppDetails().GetResponse();
+            string list2 = ""; // TODO: stworzyć listę, która pobiera te pierdoły w taki sposób w jaki pobierane są w tej fajoskiej bibliotece, np. PortableSteamExtension.GetAppDetails().GetResponse();
             return list.Data.Apps.Select(x => x.AppID.ToString() + " - " + x.Name.ToString());
         }
 

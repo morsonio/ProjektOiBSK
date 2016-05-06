@@ -9,9 +9,9 @@ using PortableSteam.Fluent.General.ISteamApps;
 
 namespace WebApplication1.PortableSteamExtension
 {
-    public class GetAppDetailsBuilder:SteamBaseBuilder<GetAppDetailsRequest,GetAppDetailsResponce,GetAppDetailsBuilder>
+    /*public class GetAppDetailsBuilder:SteamBaseBuilder<GetAppDetailsRequest,GetAppDetailsResponce,GetAppDetailsBuilder>
     {
         public GetAppDetailsBuilder(GetAppDetailsRequest request) : base(request) { }
        
-    }
+    }*/
 }
